@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "931127660859",
+    "firebase_url": "https://dpapp-e69d7.firebaseio.com",
+    "project_id": "dpapp-e69d7",
+    "storage_bucket": "dpapp-e69d7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:931127660859:android:f9311ce987180cbd7c271e",
+        "android_client_info": {
+          "package_name": "com.example.attendancetaking"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "931127660859-ta1rnqig51jrlevi4vpqmumm3uvjrld6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBsmAZCjsco5XOWvNP2SxF4ncX9jCICaz8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "931127660859-ta1rnqig51jrlevi4vpqmumm3uvjrld6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

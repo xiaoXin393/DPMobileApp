@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    android:gravity="center">
+
+
+    <LinearLayout
+        android:id="@+id/layoutAttendance"
+        android:layout_width="157dp"
+        android:layout_height="156dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="128dp"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/iconAttendance"
+            android:layout_width="116dp"
+            android:layout_height="86dp"
+
+
+
+            android:src="@drawable/attendance" />
+
+        <TextView
+            android:id="@+id/lblAttendance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="@string/logoAttendance"
+            android:textStyle="bold"
+
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layoutManageModules"
+        android:layout_width="157dp"
+        android:layout_height="156dp"
+        android:gravity="center"
+        tools:ignore="MissingConstraints"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iconReport"
+            android:layout_width="116dp"
+            android:layout_height="86dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Manage Modules"
+            android:src="@drawable/courses" />
+
+        <TextView
+            android:id="@+id/lblReport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="Manage Modules"
+            android:textStyle="bold"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutManageData"
+        android:layout_width="157dp"
+        android:layout_height="156dp"
+        android:gravity="center"
+        tools:ignore="MissingConstraints"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iconManage"
+            android:layout_width="116dp"
+            android:layout_height="86dp"
+            android:layout_marginTop="16dp"
+            android:contentDescription="Manage Students"
+            android:src="@drawable/manage" />
+
+        <TextView
+            android:id="@+id/lblManage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="17sp"
+            android:text="Manage Students"
+            android:textStyle="bold"
+   />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="156dp"
+        android:gravity="center"
+        tools:ignore="MissingConstraints"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+    <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+        android:id="@+id/extended_btn_email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+
+        android:contentDescription="Send Email"
+        android:text="Email"
+        app:icon="@drawable/email_icon"
+        app:layout_anchorGravity="bottom|left|end"/>
+        <com.google.android.material.floatingactionbutton.ExtendedFloatingActionButton
+            android:id="@+id/extended_btn_analytic"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:contentDescription="Analyze Attendance"
+            android:text="Analyze"
+            app:icon="@drawable/email_icon"
+            app:layout_anchorGravity="bottom|right|end"/>
+    </LinearLayout>
+
+
+</LinearLayout>

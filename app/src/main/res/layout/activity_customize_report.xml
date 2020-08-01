@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CustomizeReport"
+    android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="20dp"
+        android:id="@+id/studentID_text_input"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Student ID">
+
+        <AutoCompleteTextView
+            android:hint="E.g. 1701234"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:id="@+id/studentID_autocomplete"/>
+        <requestFocus/>
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+        <EditText
+            android:id="@+id/tbxDateStart"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="12"
+            android:hint="Start Date Range" />
+        <EditText
+            android:id="@+id/tbxDateEnd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:ems="12"
+            android:hint="End Date Range" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+        <Button
+            android:id="@+id/btnGenerateReport"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Generate Report" />
+    </LinearLayout>
+
+</LinearLayout>
